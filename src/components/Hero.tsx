@@ -56,7 +56,7 @@ const Hero = () => {
       {/* PHOTO À DROITE */}
      <div className="flex-1 flex justify-center">
   <div className="relative">
-    {/* halo lumineux */}
+    
     <div className="absolute -inset-4 bg-gradient-to-tr from-cnssBlue/40 via-cnssTeal/40 to-transparent blur-3xl opacity-50 pointer-events-none" />
 
     <div className="relative bg-slate-900/60 border border-slate-700 rounded-full p-3 shadow-xl animate-float hover:scale-[1.02] transition-transform duration-300">

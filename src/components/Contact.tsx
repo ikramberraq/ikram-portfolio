@@ -14,7 +14,7 @@ const Contact = () => {
       `Bonjour Ikram,\n\nNom : ${name}\nEmail : ${fromEmail}\n\nMessage :\n${message}\n\n`
     );
 
-    // 👉 Ouvre Gmail avec un nouveau message
+    // Ouvre Gmail avec un nouveau message
     const gmailUrl = `https://mail.google.com/mail/?view=cm&to=ikramberraq1@gmail.com&su=${subject}&body=${body}`;
     window.open(gmailUrl, "_blank");
   };
